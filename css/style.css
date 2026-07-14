@@ -1,0 +1,131 @@
+body {
+    background-color: #F6F7EB;
+   font-family: 'Miranda Sans', sans-serif;
+}
+
+
+.navbar {
+    background-color: #84bc9c;
+}
+
+.navbar-brand  {
+    color: #F6F7EB;
+}
+
+.nav-link {
+    color: #F6F7EB;
+}
+
+.navbar-toggler {
+    background-color: #F6F7EB;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #111111;
+}
+
+.card {
+    max-width: 800px;
+    border: none;
+    background-color: #F6F7EB;
+    margin: 20px;
+    padding: 20px;
+}
+
+.blue {
+    background-color: #190D77;
+}
+
+.lime {
+    background-color: #84bc9c;
+}
+
+.card-body {
+    color: #111111;
+}
+
+.container-heading {
+    padding: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.device-img {
+    height: 320px;       /* pick a height that fits your layout */
+    width: auto;
+    object-fit: contain; /* keeps aspect ratio, no distortion */
+}
+
+.tight-list {
+    list-style-position: inside;
+    width: fit-content;
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.equal {
+    height: 200px;
+    width: 100%;
+}
+
+footer {
+    background-color: #84bc9c;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links,
+.social-icons {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links {
+    gap: 1.5rem;
+}
+
+.social-icons {
+    gap: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* optional, nice UX touch */
+}
+
+i {
+    font-size: 1.5rem;
+    color: #F6F7EB;
+}
+
+.btn {
+    width: 200px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    background-color: #190D77;
+}
+
+.btn:hover {
+    background-color: #D7A67D;
+    color: #190D77;
+    border-color: #190D77;
+}
+
+.btn-link {
+    margin: 0 auto;
+}
+
